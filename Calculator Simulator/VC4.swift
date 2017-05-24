@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  VC4.swift
 //  Calculator Simulator
 //
-//  Created by Student on 4/4/17.
+//  Created by Student on 5/16/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController
+class VC4: UIViewController
 {
     
     @IBOutlet weak var displayLabel: UILabel!
@@ -23,7 +23,7 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
     }
-
+    
     @IBAction func oneTapped(_ sender: Any)
     {
         displayLabel.text = displayLabel.text! + "1"
@@ -157,6 +157,6 @@ class ViewController: UIViewController
         
     }
     
-
+    
 }
 

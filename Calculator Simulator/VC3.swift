@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  VC3.swift
 //  Calculator Simulator
 //
-//  Created by Student on 4/4/17.
+//  Created by Student on 5/15/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController
+class VC3: UIViewController
 {
     
     @IBOutlet weak var displayLabel: UILabel!
@@ -23,12 +23,13 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
     }
-
+    
     @IBAction func oneTapped(_ sender: Any)
     {
         displayLabel.text = displayLabel.text! + "1"
         numberArray[i] = Double(displayLabel.text!)!
     }
+    
     @IBAction func twoTapped(_ sender: Any)
     {
         displayLabel.text = displayLabel.text! + "2"
@@ -80,6 +81,7 @@ class ViewController: UIViewController
         displayLabel.text = ""
         i = 0
     }
+    
     @IBAction func addButton(_ sender: Any)
     {
         i = i + 1
@@ -157,6 +159,7 @@ class ViewController: UIViewController
         
     }
     
-
+    
 }
+
 
